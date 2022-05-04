@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/navigation.css">
+    <style>
+        #bottomNav {
+            width: 100%;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+
+            background-color: #333333;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="navbar"></div>
+    <div id="bottomNav"></div>
+    <div id="LandingBody" style="background-color:#f3f3f3;">
+
+
+        <div>
+
+            <img id="imagemain"
+                src="https://www.yoox.com/images/yoox80/banners/6821_1_Ceremony_Main_K.jpg?634485886601286852&impolicy=cropDefault&width=960&height=510"
+                alt="">
+            <div id="whiteBoxONImage" class="container" style="width: 100%;">
+
+
+
+                <div class="bottom-left">
+                    <h3 style="font-family: 'Playfair Display'; font-size: 22px;">LET’S PARTY!</h3>
+                    <p style="font-size: 17px; font-family: Montserrat; "> Festive looks for the littlest guests
+                    </p>
+                    <div class="flexAnchor">
+                        <a href="">Shop Girl</a>
+                        <a href="">Shop Boy </a>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+        <div style="margin-top: 100px;text-align: center">
+            <h2>SHOP FOR GIRLS</h2>
+            <a style="color:black" href="">VIEW ALL</a>
+        </div>
+        <div id="showGirlsData"></div>
+
+
+
+
+
+
+        <div style="margin-top: 100px;text-align: center">
+            <h2>SHOP FOR BOYS</h2>
+            <a style="color:black" href="">VIEW ALL</a>
+        </div>
+        <div id="showBoysData"></div>
+
+
+
+\
+
+
+
+
+
+
+
+        <!-- three Images -->
+
+        <div id="threeImages" style="background-color: white">
+            <div id="imgFirst">
+                <img src="https://www.yoox.com/images/yoox80/banners/6821_5_IlGufo_Tris_K.jpg?634485886601286852#width=387&height=540"
+                    alt="">
+                <div>
+                    <h3>IL GUFO</h3>
+                    <p>Outdoor adventures</p>
+                </div>
+            </div>
+            <div id="imgSecond">
+                <img src="https://www.yoox.com/images/yoox80/banners/6821_2_DolceGabbana_Tris_K.jpg?634485886601286852#width=430&height=600"
+                    alt="">
+                <div>
+                    <h3>DOLCE & GABBANA</h3>
+                    <p>Fun fashion for the little ones</p>
+                </div>
+            </div>
+            <div id="imgThird">
+                <img src=https://www.yoox.com/images/yoox80/banners/6821_5_StellaMcKids_Tris_K.jpg?634485886601286852#width=387&height=540"
+                    alt="">
+                <div>
+                    <h3>STELLA MCCARTNEY KIDS</h3>
+                    <p>Come play with us!</p>
+                </div>
+            </div>
+        </div>
+
+    
+      
+<!-- Recently Viewed -->
+
+        <div style="margin-top: 100px;text-align: center">
+            <h2>RECENTLY VIEWED</h2>
+            <a style="color:black" href="">VIEW ALL</a>
+        </div>
+        <div id="thirdCorousal" ></div>
+
+
+
+
+
+
+      
+        <img id="imagemain" src="https://www.yoox.com/images/yoox80/banners/6821_1_Spring_Main_K.jpg?634485886601286852&impolicy=cropDefault&width=960&height=510"
+        alt="">
+      <div id="whiteBoxONImage" class="container" style="width: 100%;">
+
+
+
+        <div id="kidBottomImage">
+            <h3 style="font-family: 'Playfair Display'; font-size: 22px;">SPRING HAS SPRUNG!</h3>
+            <p style="font-size: 17px; font-family: Montserrat; "> Find the season’s must-haves here</p>
+            <div class="flexAnchor">
+                <a href="">Shop Girl</a>
+                <a href="">Shop Boy </a>
+            </div>
+
+
+        </div>
+
+
+        <div id="footer"></div>
+
+    </div>
+         
+
+
+
+
+    </div>
+
+
+    </div>
+
+</body>
+
+</html>
+<script type="module" src="./src/kids.js">
+
+
+
+
+
+
+</script>
+<script>
+    let girlsData = [
+        {
+            id: 1,
+            image: "https://www.yoox.com/images/items/12/12788309HN_14_f.jpg?impolicy=crop&width=306&height=390",
+            name: "VANS",
+            type: "SweatShirt",
+            strike: "US$ 432,00 38%OFF",
+            price: "259"
+        },
+        {
+            id: 2,
+            image: "https://www.yoox.com/images/items/13/13773489EL_14_f.jpg?impolicy=crop&width=306&height=390",
+            name: "Name IT",
+            type: "Jeans",
+            strike: "US$ 432,00 38%OFF",
+            price: "259"
+        },
+        {
+            id: 3,
+            image: "https://www.yoox.com/images/items/17/17239634NM_14_f.jpg?impolicy=crop&width=306&height=390",
+            name: "Golder Delux Brand",
+            type: "Shoes",
+            strike: "US$ 432,00 38%OFF",
+            price: "259"
+        }
+
+    ]
+
+    let boysData = [
+
+
+        {
+            id: 1,
+            image: "https://www.yoox.com/images/items/54/54183813RE_14_f.jpg?impolicy=crop&width=306&height=390",
+            name: "NIKE",
+            type: "Athletic Outfit",
+            strike: "US$ 120,00 20%OFF",
+            price: "980"
+        },
+        {
+            id: 2,
+            image: "https://www.yoox.com/images/items/17/17240953XE_14_f.jpg?impolicy=crop&width=306&height=390",
+            name: "VANS",
+            type: "Sneakers",
+            strike: "US$ 120,00 20%OFF",
+            price: "250"
+        },
+        {
+            id: 3,
+            image: "https://www.yoox.com/images/items/12/12789956EA_14_f.jpg?impolicy=crop&width=306&height=390",
+            name: "KENZO",
+            type: "T-shirt",
+            strike: "US$ 120,00 20%OFF",
+            price: "250"
+        }
+
+
+
+
+    ]
+
+    let showBoysData = document.getElementById("showBoysData")
+        boysData.map(function (el, index) {
+            let box = document.createElement("div")
+            let img = document.createElement("img")
+            img.src = el.image;
+
+            let name = document.createElement("h6")
+            name.innerText = el.name;
+
+            let type = document.createElement("p")
+            type.innerText = el.type;
+
+            let priceFlex = document.createElement("div")
+            priceFlex.style = "display:flex;gap:20px;justify-content:center"
+
+            let strike = document.createElement("p")
+            strike.innerText = el.strike;
+            let price = document.createElement("p")
+            price.innerText = `$ ${el.price}`;
+            priceFlex.append(strike, price)
+
+            box.append(img, name, type, priceFlex);
+
+            showBoysData.append(box)
+
+
+        })
+
+
+        let showGirlsData = document.getElementById("showGirlsData")
+        girlsData.map(function (el, index) {
+            let box = document.createElement("div")
+            let img = document.createElement("img")
+            img.src = el.image;
+
+            let name = document.createElement("h6")
+            name.innerText = el.name;
+
+            let type = document.createElement("p")
+            type.innerText = el.type;
+
+            let priceFlex = document.createElement("div")
+            priceFlex.style = "display:flex;gap:20px;justify-content:center"
+
+            let strike = document.createElement("p")
+            strike.innerText = el.strike;
+            let price = document.createElement("p")
+            price.innerText = `$ ${el.price}`;
+            priceFlex.append(strike, price)
+
+            box.append(img, name, type, priceFlex);
+
+            showGirlsData.append(box)
+
+
+        })
+        //REcently Viewed
+
+        let corousal3 = [
+
+        {
+            Id: 1,
+            image: "https://www.yoox.com/images/items/13/13774231AS_14_f.jpg?impolicy=crop&width=306&height=390",
+            name: "TIBI",
+            type: "modest fashion",
+            strike: "US$ 432,00 60%OFF",
+            price: "163,00"
+        },
+        {
+            id: 2,
+            image: "https://www.yoox.com/images/items/13/13741344LQ_14_f.jpg?impolicy=crop&width=306&height=390",
+            name: "THEORY",
+            type: "Casual Pants",
+            strike: "US$ 432,00 38%OFF",
+            price: "259,00"
+        },
+        {
+            id: 3,
+            image: "https://www.yoox.com/images/items/12/12785574XM_14_f.jpg?impolicy=crop&width=306&height=390",
+            name: "Caseu",
+            type: "Sweatshirt",
+            strike: "US$ 432,00 38%OFF",
+            price: "359"
+        }]
+
+
+
+
+
+
+
+    let thirdCorousal = document.getElementById("thirdCorousal")
+    corousal3.map(function (el, index) {
+        let box = document.createElement("div")
+        let img = document.createElement("img")
+        img.src = el.image;
+
+        let name = document.createElement("h6")
+        name.innerText = el.name;
+
+        let type = document.createElement("p")
+        type.innerText = el.type;
+
+        let priceFlex = document.createElement("div")
+        priceFlex.style = "display:flex;gap:20px;justify-content:center"
+
+        let strike = document.createElement("p")
+        strike.innerText = el.strike;
+        let price = document.createElement("p")
+        price.innerText = `$ ${el.price}`;
+        priceFlex.append(strike, price)
+
+        box.append(img, name, type, priceFlex);
+
+        thirdCorousal.append(box)
+
+
+    });
+</script>
