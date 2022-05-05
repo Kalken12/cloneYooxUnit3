@@ -251,8 +251,12 @@
 
 
     function displayData(cartArr) {
-        cartArr.map(function (el, index) {
+    
+      
 
+
+        cartArr.map(function (el, index) {
+       
             let row = document.createElement("tr")
             row.setAttribute("id", "rowOfCart")
 
@@ -313,13 +317,7 @@
             })
 
             btnTd.append(decre1, incre1, countShowDiv, RemoveEl);
-
-
-
-
-
-
-            let priceTd = document.createElement("td")
+           let priceTd = document.createElement("td")
             let price = document.createElement("h2")
             price.innerText = `$ ${el.price * el.quantity}`
             priceTd.append(price)
@@ -384,6 +382,7 @@
         // console.log(qty)
 
     }
+    
 
     // showTotal
     function showTotal() {
@@ -393,9 +392,22 @@
             // document.querySelector("#container").innerHTML = ""
             // data(arr)
 
+
         }, 0)
-        document.getElementById("totalItemsCharge").innerText = "₹" + total
-        document.getElementById("totalBill").innerText = "₹" + (total + 26)
+
+
+        
+       
+        document.getElementById("totalItemsCharge").innerText = "US$" + total+",00"
+        let tot=[]
+        tot.push(total+140+26)
+        tot.push(total)
+        localStorage.setItem("total", JSON.stringify(tot))
+        document.getElementById("totalBill").innerText = "US$" + (total+140 + 26)+",00"
+
+
+
+
         // document.querySelector(".cart>div>p:nth-student(4)").innerHTML = "₹" + (total + 45)
         // totalItemsCharge   totalBill
     }
