@@ -81,32 +81,7 @@ button :hover{
     #category > div > p{
         font-size: small;
     }
-    #footer{
-        display: flex;
-        
-        gap: 10px;
-        text-align: center;
-       
-        /* border: 2px solid black; */
-        width: 70%;
-        height: 450px;
-        margin: auto;
-        margin-top: 45px;
-        
-    }
-    #footer > div{
-    width: 90%;
-    }
-    #footer > div > ul> li{
-       list-style-type: none;
-       line-height: 25px;
-    }
-    #footer > div > ul> li:nth-child(2)>button
-    {
-       height: 3px;
-       width: 80%;
-    
-    }
+   
     .privacyTerms{
        display: flex;
       
@@ -410,7 +385,7 @@ button :hover{
         color: blue;
         background-color: blanchedalmond;
     }
-    select{
+    #select{
         width: 200px;
         height:50px ;
         border-radius: 50%;

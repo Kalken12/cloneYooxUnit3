@@ -187,22 +187,6 @@ var womensData = [
 
 localStorage.setItem("womensData", JSON.stringify(womensData));
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 var mensData = JSON.parse(localStorage.getItem("womensData"));
 console.log(mensData)
 
@@ -271,8 +255,7 @@ mensData.map(function (data) {
     wishlist(data)
   })
 
-  btnDiv.style ="display:flex; justify-content:center:gap:20px"
-  addBtn.style= "background-color:black;color:white;border:none"
+
   btnDiv.append(addBtn,wishBtn);
 
   //appending-->
