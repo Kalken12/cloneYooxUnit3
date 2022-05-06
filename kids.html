@@ -19,12 +19,154 @@
 
 
         }
+
+        /* BOTTOM NAV */
+        .dropdownwrapper.active .dropdownlist {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /*----------------- button------------ */
+        /* button1 */
+        .dropdownlist {
+            position: absolute;
+            left: 0;
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .dropdownwrapper {
+            position: relative;
+        }
+
+        .dropdownwrapper.active .dropdownlist {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* button-2 */
+        .dropdownlist1 {
+            position: absolute;
+            /* left: 0; */
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .dropdownwrapper1 {
+            position: relative;
+        }
+
+        .dropdownwrapper1.active .dropdownlist1 {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* button-3 */
+        .dropdownlist2 {
+            position: absolute;
+            left: 0;
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .dropdownwrapper2 {
+            position: relative;
+        }
+
+        .dropdownwrapper2.active .dropdownlist2 {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* button-4 */
+        .dropdownlist3 {
+            position: absolute;
+            /* left: 0; */
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .dropdownwrapper3 {
+            position: relative;
+        }
+
+        .dropdownwrapper3.active .dropdownlist3 {
+            opacity: 1;
+            visibility: visible;
+        }
+
+
+        .imgNav {
+            position: absolute;
+            left: -250px;
+            top: 10px;
+        }
+
+        .imgNav1 {
+            position: absolute;
+            left: -400px;
+            top: 10px;
+        }
+
+        .imgNav2 {
+            position: absolute;
+            left: -500px;
+            top: 10px;
+        }
+
+        .imgNav3 {
+            position: absolute;
+            left: -600px;
+            top: 10px;
+        }
+        #bottomNav>div>button {
+            background-color: #333333;
+            color: white;
+            border: none;
+            font-size: 15px;
+            margin-top: 13px;
+        }
+
     </style>
 </head>
 
 <body>
+    <div id="makeSticky" class="sticky">
     <div id="navbar"></div>
-    <div id="bottomNav"></div>
+    <div id="bottomNav">
+        <div class="dropdownwrapper">
+            <button id="newArrivalNav" href="">0-24 MONTHS</button>
+            <div class="dropdownlist" id="displayData">
+                <img class="imgNav" src="./image/kidsNav1.png" alt="">
+            </div>
+        </div>
+
+        <div class="dropdownwrapper1">
+            <button id="designerNav" href="">3-8 YEARS</button>
+            <div class="dropdownlist1" id="displayData1">
+
+                <img class="imgNav1" src="./image/kidsNav2.png" alt="">
+
+
+            </div>
+        </div>
+        <div class="dropdownwrapper2">
+            <button id="clothingNav" href="">9-16 YEARS</button>
+            <div class="dropdownlist2" id="displayData2">
+                <img class="imgNav2" src="./image/kidsNav3.png" alt="">
+            </div>
+        </div>
+        <div class="dropdownwrapper3">
+            <button id="shoesNav" href="">COLLABORATIONS</button>
+            <div class="dropdownlist3" id="displayData3">
+                <img class="imgNav3" src="./image/kidsNav4.png" alt="">
+            </div>
+        </div>
+
+
+
+ </div>
+</div>
     <div id="LandingBody" style="background-color:#f3f3f3;">
 
 
@@ -42,8 +184,8 @@
                     <p style="font-size: 17px; font-family: Montserrat; "> Festive looks for the littlest guests
                     </p>
                     <div class="flexAnchor">
-                        <a href="">Shop Girl</a>
-                        <a href="">Shop Boy </a>
+                        <a href="./kidsShopping.html">Shop Girl</a>
+                        <a href="./kidsShopping.html">Shop Boy </a>
                     </div>
 
 
@@ -54,7 +196,7 @@
 
         <div style="margin-top: 100px;text-align: center">
             <h2>SHOP FOR GIRLS</h2>
-            <a style="color:black" href="">VIEW ALL</a>
+            <a style="color:black" href="./kidsShopping.html">VIEW ALL</a>
         </div>
         <div id="showGirlsData"></div>
 
@@ -65,7 +207,7 @@
 
         <div style="margin-top: 100px;text-align: center">
             <h2>SHOP FOR BOYS</h2>
-            <a style="color:black" href="">VIEW ALL</a>
+            <a style="color:black" href="./kidsShopping.html">VIEW ALL</a>
         </div>
         <div id="showBoysData"></div>
 
@@ -114,7 +256,7 @@
 
         <div style="margin-top: 100px;text-align: center">
             <h2>RECENTLY VIEWED</h2>
-            <a style="color:black" href="">VIEW ALL</a>
+            <a style="color:black" href="kidsShopping.html">VIEW ALL</a>
         </div>
         <div id="thirdCorousal" ></div>
 
@@ -134,8 +276,8 @@
             <h3 style="font-family: 'Playfair Display'; font-size: 22px;">SPRING HAS SPRUNG!</h3>
             <p style="font-size: 17px; font-family: Montserrat; "> Find the season’s must-haves here</p>
             <div class="flexAnchor">
-                <a href="">Shop Girl</a>
-                <a href="">Shop Boy </a>
+                <a href="./kidsShopping.html">Shop Girl</a>
+                <a href="./kidsShopping.html">Shop Boy </a>
             </div>
 
 
@@ -346,4 +488,92 @@
 
 
     });
+
+
+
+
+    let displayData = document.getElementById("displayData");
+    let displayData1 = document.getElementById("displayData1");
+    let displayData2 = document.getElementById("displayData2");
+    let displayData3 = document.getElementById("displayData3");
+
+
+    const btn = document.getElementById("newArrivalNav");
+    btn.onclick = function () {
+
+        if (displayData.style.display !== "none") {
+            displayData.style.display = "none";
+            // document.querySelector(".dropdownwrapper1").classList.toggle('active')
+
+        }
+        else {
+
+            displayData.style.display = "block"
+            document.querySelector(".dropdownwrapper").classList.toggle('active')
+            displayData1.style.display = "none"
+            displayData2.style.display = "none"
+            displayData3.style.display = "none"
+           
+
+
+
+
+        }
+
+    };
+
+    const btn1 = document.getElementById("designerNav");
+    btn1.onclick = function () {
+
+        if (displayData1.style.display !== "none") {
+            displayData1.style.display = "none";
+            // document.querySelector(".dropdownwrapper1").classList.toggle('active')
+
+        }
+        else {
+            displayData1.style.display = "block"
+            document.querySelector(".dropdownwrapper1").classList.toggle('active')
+            displayData.style.display = "none"
+            displayData2.style.display = "none"
+            displayData3.style.display = "none"
+
+
+        }
+    };
+    const btn2 = document.getElementById("clothingNav");
+    btn2.onclick = function () {
+
+
+        if (displayData2.style.display !== "none") {
+            displayData2.style.display = "none";
+            //  document.querySelector(".dropdownwrapper1").classList.toggle('active')
+
+        }
+        else {
+            displayData2.style.display = "block"
+            document.querySelector(".dropdownwrapper2").classList.toggle('active')
+            displayData.style.display = "none"
+            displayData1.style.display = "none"
+            displayData3.style.display = "none"
+           
+        }
+    };
+
+    const btn3 = document.getElementById("shoesNav");
+    btn3.onclick = function () {
+        if (displayData3.style.display !== "none") {
+            displayData3.style.display = "none";
+            // document.querySelector(".dropdownwrapper1").classList.toggle('active')
+
+        }
+        else {
+            displayData3.style.display = "block"
+            document.querySelector(".dropdownwrapper3").classList.toggle('active')
+            displayData.style.display = "none"
+            displayData1.style.display = "none"
+            displayData2.style.display = "none"
+           
+        }
+
+    };
 </script>

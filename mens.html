@@ -11,16 +11,20 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="./styles/navigation.css">
+    <link rel="stylesheet" href="./styles/navigation.css">
     <!-- <link rel="stylesheet" href="./styles/navigation.css"> -->
 
 
     <style>
+        body {
+            width: 100%;
+        }
+
         #LandingBody {
             background-color: #f3f3f3;
         }
 
-     
+
 
 
         #TopNav {
@@ -167,22 +171,9 @@
 
 
         }
-        /* bottom navbar */
 
-        #bottomNav {
-            width: 100%;
-            height: 40px;
-            display: flex;
-            justify-content: center;
-            gap: 20px;
 
-            background-color: #333333
-        }
 
-      
-
-       
-        /* bottom Navbar */
 
 
 
@@ -614,14 +605,6 @@
 
         }
 
-
-
-
-
-
-
-
-
         /* login */
         .modal-content {
             width: 400px;
@@ -703,17 +686,17 @@
         }
 
         /* new added */
-        .dropdownlist {
+        /* .dropdownlist {
             position: absolute;
             left: 0;
             opacity: 0;
             visibility: hidden;
-        }
+        } */
 
 
-        .dropdownwrapper {
+        /* .dropdownwrapper {
             position: relative;
-        }
+        } */
 
 
         .dropdownwrapper.active .dropdownlist {
@@ -721,11 +704,28 @@
             visibility: visible;
         }
 
-        /* for 2 */
-
-        /* .dropdownlist1 {
+        /*----------------- button------------ */
+        /* button1 */
+        .dropdownlist {
             position: absolute;
             left: 0;
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .dropdownwrapper {
+            position: relative;
+        }
+
+        .dropdownwrapper.active .dropdownlist {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* button-2 */
+        .dropdownlist1 {
+            position: absolute;
+            /* left: 0; */
             opacity: 0;
             visibility: hidden;
         }
@@ -737,67 +737,277 @@
         .dropdownwrapper1.active .dropdownlist1 {
             opacity: 1;
             visibility: visible;
-        } */
+        }
+
+        /* button-3 */
+        .dropdownlist2 {
+            position: absolute;
+            left: 0;
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .dropdownwrapper2 {
+            position: relative;
+        }
+
+        .dropdownwrapper2.active .dropdownlist2 {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* button-4 */
+        .dropdownlist3 {
+            position: absolute;
+            /* left: 0; */
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .dropdownwrapper3 {
+            position: relative;
+        }
+
+        .dropdownwrapper3.active .dropdownlist3 {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* button-5 */
+        .dropdownlist4 {
+            position: absolute;
+            /* left: 0; */
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .dropdownwrapper4 {
+            position: relative;
+        }
+
+        .dropdownwrapper4.active .dropdownlist4 {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /*  */
+        .dropdownlist5 {
+            position: absolute;
+            /* left: 0; */
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .dropdownwrapper5 {
+            position: relative;
+        }
+
+        .dropdownwrapper5.active .dropdownlist5 {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* 6th--- */
+        .dropdownlist6 {
+            position: absolute;
+            /* left: 0; */
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .dropdownwrapper6 {
+            position: relative;
+        }
+
+        .dropdownwrapper6.active .dropdownlist6 {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* 7th--- */
+        .dropdownlist7 {
+            position: absolute;
+            left: 0;
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .dropdownwrapper7 {
+            position: relative;
+        }
+
+        .dropdownwrapper7.active .dropdownlist7 {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* 8th--- */
+        .dropdownlist8 {
+            position: absolute;
+            left: 0;
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .dropdownwrapper8 {
+            position: relative;
+        }
+
+        .dropdownwrapper8.active .dropdownlist8 {
+            opacity: 1;
+            visibility: visible;
+        }
+
+
+        /* end */
+
+
+
+        .imgNav {
+            position: absolute;
+            left: -100px;
+            top: 10px;
+        }
+
+        .imgNav1 {
+            position: absolute;
+            left: -200px;
+            top: 10px;
+        }
+
+        .imgNav2 {
+            position: absolute;
+            left: -300px;
+            top: 10px;
+        }
+
+        .imgNav3 {
+            position: absolute;
+            left: -400px;
+            top: 10px;
+        }
+
+        .imgNav4 {
+            position: absolute;
+            left: -400px;
+            top: 10px;
+        }
+
+        .imgNav5 {
+            position: absolute;
+            left: -500px;
+            top: 10px;
+        }
+
+        .imgNav6 {
+            position: absolute;
+            left: -600px;
+            top: 10px;
+        }
+
+        .imgNav7 {
+            position: absolute;
+            left: -700px;
+            top: 10px;
+        }
+
+        .imgNav8 {
+            position: absolute;
+            left: -800px;
+            top: 10px;
+        }
+
+
+        #bottomNav {
+            width: 100%;
+            height: 50px;
+            background-color: #333333;
+            display: flex;
+            justify-content: center;
+            gap: 10px
+        }
+
+
+        #bottomNav>div>button {
+            background-color: #333333;
+            color: white;
+            border: none;
+            font-size: 15px;
+            margin-top: 13px;
+        }
     </style>
 </head>
 
 <body>
-    <div id="navbar" class="sticky">
+    <div id="makeSticky" class="sticky">
+        <div id="navbar" class="sticky"> </div>
 
 
-    </div>
-
-    <div id="bottomNav">
-
-        <div class="dropdownwrapper">
-            <button id="newArrivalNav" href="">NEW ARRIVALS</button>
-            <div class="dropdownlist">
-                <ul>
-                    <li>a</li>
-                    <li>b</li>
-                </ul>
-                <div>
-                    <img src="/image/WomenNavbarItem.png" alt="">
+        <div id="bottomNav">
+            <div class="dropdownwrapper">
+                <button id="newArrivalNav">NEW ARRIVALS</button>
+                <div class="dropdownlist" id="displayData">
+                    <img class="imgNav" src="./image/mensNewArrivals.png" alt="">
                 </div>
-
             </div>
-        </div>
-        <div class="dropdownwrapper">
-            <button id="designersNav" href="">DESIGNERS</button>
-            <div id="dropdownlist">
-                <ul>
-                    <li>1</li>
-                    <li>2</li>
-                </ul>
-                <div>
-                    <img src="./image/google.png" alt="">
+
+            <div class="dropdownwrapper1">
+                <button id="designerNav" >DESIGNERS</button>
+                <div class="dropdownlist1" id="displayData1">
+
+                    <img class="imgNav1" src="./image/MensDesignerNav.png" alt="">
+
+
                 </div>
-
             </div>
-        </div>
-
-        <div>
-            <a id="clothingNav" href="">CLOTHING</a>
-        </div>
-
-        <div>
-            <a id="shoesNav" href="">SHOES</a>
-        </div>
-        <div>
-            <a id="accessoriesNav" href="">ACCESSORIES & BAGS</a>
-        </div>
-        <div>
-            <a id="by8Nav" href="">8 BY YOOX</a>
-        </div>
-
-        <div>
-            <a id="yooxGenNav" href="">YOOXGEN</a>
-        </div>
-        <div>
-            <a id="yooxGenNav" href="">BEST OFFERS</a>
-        </div>
+            <div class="dropdownwrapper2">
+                <button id="clothingNav" >CLOTHING</button>
+                <div class="dropdownlist2" id="displayData2">
+                    <img class="imgNav2" src="./image/mensClothingNav.png" alt="">
+                </div>
+            </div>
 
 
+            <div class="dropdownwrapper3">
+                <button id="shoesNav" href="">SHOES</button>
+                <div class="dropdownlist3" id="displayData3">
+                    <img class="imgNav3" src="./image/mensShoesNav.png" alt="">
+                </div>
+            </div>
+            <div class="dropdownwrapper4">
+                <button id="accessorisNav" href="">ACCESSORIES</button>
+                <div class="dropdownlist4" id="displayData4">
+                    <img class="imgNav4" src="./image/mensAccessoriesNav.png" alt="">
+                </div>
+            </div>
+            <div class="dropdownwrapper5">
+                <button id="byYooxNav" href="">8 BY YOOX</button>
+                <div class="dropdownlist5" id="displayData5">
+                    <img class="imgNav5" src="./image/mens8yooxNav.png" alt="">
+                </div>
+            </div>
+
+            <div class="dropdownwrapper6">
+                <button id="yooxgenNav" href="">YOOXYGEN</button>
+                <div class="dropdownlist6" id="displayData6">
+                    <img class="imgNav6" src="./image/menyooxygenNav.png" alt="">
+                </div>
+            </div>
+            <div class="dropdownwrapper7">
+                <button id="collaborationNav" href="">COLLABORATION</button>
+                <div class="dropdownlist7" id="displayData7">
+                    <img class="imgNav7" src="./image/menscollaborationNav.png" alt="">
+                </div>
+            </div>
+            <div class="dropdownwrapper8">
+                <button id="bestOfferNav" href="">BEST OFFERS</button>
+                <div class="dropdownlist8" id="displayData8">
+                    <img class="imgNav8" src="./image/mesnBestOffer.png" alt="">
+                </div>
+            </div>
+
+
+        </div>
     </div>
 
     <div id="LandingBody" style="background-color:#f3f3f3;">
@@ -805,7 +1015,7 @@
         <div>
 
             <img id="imagemain"
-                src="https://www.yoox.com/images/yoox80/banners/6824_4_NewArrivals_Main_WM.jpg?634485886601286852&impolicy=cropDefault&width=960&height=510"
+                src="https://www.yoox.com/images/yoox80/banners/6824_1_Wedding_Main_M.jpg?634485886601286852&impolicy=cropDefault&width=960&height=510"
                 alt="">
             <div id="whiteBoxONImage" class="container" style="width: 100%;">
 
@@ -816,10 +1026,10 @@
                     <p style="font-size: 17px; font-family: Montserrat; "> Celebrate love in style!
                     </p>
                     <div class="flexAnchor">
-                        <a style="color: black; font-weight: bold;" href="">shop Now</a>
-                        <a href=""> Get Inspired</a>
+                        <a style="color: black; font-weight: bold;" href="./mensShopping .html">shop Now</a>
+                        <a href="./mensShopping .html"> Get Inspired</a>
                     </div>
-                   
+
 
                 </div>
 
@@ -839,26 +1049,26 @@
             <h6>CHLOÉ</h6>
             <h6>GUCCI</h6>
             <h6>VERSACE</h6>
-            <a href="">VIEW ALL</a>
+            <a href="./mensShopping .html">VIEW ALL</a>
 
 
 
         </div>
         <div id="twoImagesOverLap">
             <div>
-                <img src="https://www.yoox.com/images/yoox80/banners/6790_1_HL_DM_ROWHK.png?634485886601286852#width=430&height=600"
+                <img src="https://www.yoox.com/images/yoox80/banners/6939_2_HL_DM_ROW.png?634485886601286852#width=430&height=600"
                     alt="">
                 <div style="text-align: center;">
                     <h2>DISCOVER THE SELECTION</h2>
                     <p>Ends 5/2</p>
-                    <a style="color: black;" href="">Shop Now</a>
+                    <a style="color: black;" href="./mensShopping .html">Shop Now</a>
 
                 </div>
             </div>
 
             <div>
 
-                <img src="https://www.yoox.com/images/yoox80/banners/6824_5_Wedding_HL_W.jpg?634485886601286852#width=430&height=600"
+                <img src="https://www.yoox.com/images/yoox80/banners/6824_2_FocusOnEyewear_M_HL.jpg?634485886601286852#width=430&height=600"
                     alt="">
                 <div style="text-align: center;">
                     <h2>WONDERFUL WEDDINGS</h2>
@@ -897,7 +1107,7 @@
                 </div>
             </div>
             <div id="imgSecond">
-                <img src="https://www.yoox.com/images/yoox80/banners/6825_2_KarlLagerfeld_W_Tris.jpg?634485886601286852#width=473&height=660"
+                <img src="https://www.yoox.com/images/yoox80/banners/6825_1_KarlLagerfeld_M_Tris.jpg?634485886601286852#width=473&height=660"
                     alt="">
                 <div>
                     <h3>KARL LAGERFELD</h3>
@@ -921,14 +1131,14 @@
 
         <div style="margin-top: 100px;text-align: center">
             <h2>ONE OF A KIND</h2>
-            <a style="color:black" href="">VIEW ALL</a>
+            <a style="color:black" href="./mensShopping .html">VIEW ALL</a>
         </div>
         <div id="secondCorousal"></div>
 
-     
+
 
         <div id="secondOverlapItem">
-            <img src="https://www.yoox.com/images/yoox80/banners/6833_1_8byoox_SS22_Special.jpg?634485886601286852#width=930&height=660"
+            <img src="https://www.yoox.com/images/yoox80/banners/6833_3_8byoox_SS22_Special.jpg?634485886601286852#width=930&height=660"
                 alt="">
 
             <div id="overlaped2box">
@@ -939,7 +1149,7 @@
                     <a href=""> GET INSPIRED</a>
                 </div>
                 <div id="overlapedItem1">
-                    <img src="https://www.yoox.com/images/items/50/50266373TP_14_f.jpg?impolicy=crop&width=306&height=390"
+                    <img src="https://www.yoox.com/images/items/14/14194373AR_14_f.jpg?impolicy=crop&width=306&height=390"
                         alt="">
                     <div>
                         <h6> 8 by Yoox </h6>
@@ -958,7 +1168,7 @@
 
         <div style="margin-top: 100px;text-align: center">
             <h2>RECENTLY VIEWED</h2>
-            <a style="color:black" href="">VIEW ALL</a>
+            <a style="color:black" href="./mensShopping .html">VIEW ALL</a>
         </div>
         <div id="thirdCorousal"></div>
 
@@ -969,12 +1179,12 @@
 
         <div id="twoimagesSideBYSide">
             <div>
-                <img src="https://www.yoox.com/images/yoox80/banners/6769_1_Humantouch_Half.jpg?634485886601286852#width=690&height=637"
+                <img src="https://www.yoox.com/images/yoox80/banners/6824_2_Topwear_Bottom_M.jpg?634485886601286852#width=690&height=637"
                     alt="">
                 <div id="twoimagesSideBYSideLeft">
                     <h2 style="font-family: 'Playfair Display'; font-size: 22px;">UNIQUE TOUCH</h2>
                     <p style="font-size: 17px; font-family: Montserrat;">Artisanal techniques and bit of magic</p>
-                    <a style="color:black" href="">SHOP Now</a>
+                    <a style="color:black" href="./mensShopping .html">SHOP Now</a>
 
                 </div>
                 <!-- "font-family: 'Playfair Display'; font-size: 22px;">NEW & NOW</h3>
@@ -986,7 +1196,7 @@
                 <div id="twoimagesSideBYSideRight">
                     <h2 style="font-family: 'Playfair Display'; font-size: 22px;">EARTH DAY, EVERY DAY</h2>
                     <p style="font-size: 17px; font-family: Montserrat;">Take care of the plane</p>
-                    <a style="color:black" href="">CELEBRATE WITH US</a>
+                    <a style="color:black" href="./mensShopping .html">CELEBRATE WITH US</a>
                 </div>
             </div>
         </div>
@@ -1002,28 +1212,34 @@
 <script>
     let corousel1 = [
         {
-            id: 1,
-            image: "https://www.yoox.com/images/items/17/17215863RC_14_f.jpg?impolicy=crop&width=306&height=390",
-            name: "MMS MAISON MARGIELA",
-            type: "Casual Pants",
-            strike: "US$ 432,00 38%OFF",
-            price: "259"
+            image:
+                "https://th.bing.com/th/id/OIP.mQfXzaUWdVDXAChf-aKLZwHaJ4?w=196&h=261&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+            name: "MEN'S CALVIN KLEIN TRACK JACKET",
+            brand: "CALVIN KLEIN",
+            category: "JACKET",
+            Symbol: "₹",
+            price: 750,
+            strikedoffprice: 2530,
         },
         {
-            id: 2,
-            image: "https://www.yoox.com/images/items/14/14204982GM_14_f.jpg?impolicy=crop&width=306&height=390",
-            name: "MSGM",
-            type: "Sweater",
-            strike: "US$ 432,00 38%OFF",
-            price: "300"
+            image:
+                "https://www.yoox.com/images/items/41/41992286qo_14_f.jpg?width=210&height=272&impolicy=crop&gravity=Center",
+            name: "MEN'S HERON PRESTON JACKET ",
+            brand: "LEV'S",
+            category: "JACKET",
+            price: 450,
+            strikedoffprice: 999,
+            Symbol: "₹",
         },
         {
-            id: 3,
-            image: "https://www.yoox.com/images/items/46/46802203FN_14_f.jpg?impolicy=crop&width=306&height=390",
-            name: "Leather",
-            type: "Wallet",
-            strike: "US$ 132,00 38%OFF",
-            price: "200"
+            image:
+                "https://www.yoox.com/images/items/13/13539975ds_14_r.jpg?width=210&height=272&impolicy=crop&gravity=Center",
+            name: " Wales Bonner Power geometric-print trousers",
+            brand: "CALVIN KLEIN",
+            category: "PANT",
+            price: 801,
+            strikedoffprice: 1099,
+            Symbol: "₹",
         },
     ]
 
@@ -1058,32 +1274,37 @@
     // second corousal
     let secondCorousal = [
         {
-
-            id: 4,
-            image: "https://www.yoox.com/images/items/13/13740160WD_14_f.jpg?impolicy=crop&width=306&height=390",
-            name: "CHRISTOPHER KANE",
-            type: "Midi Skirt",
-            strike: "US$ 432,00 38%OFF",
-            price: "259"
+            image:
+                "https://www.yoox.com/images/items/38/38983820ws_14_r.jpg?width=210&height=272&impolicy=crop&gravity=Center",
+            name: "Alexander McQueen intarsia-pattern Shirt",
+            brand: "SAINT LAURENT",
+            category: "SHIRT",
+            price: 399,
+            strikedoffprice: 799,
+            Symbol: "₹",
         },
         {
-
-            id: 5,
-            image: "https://www.yoox.com/images/items/15/15192946UD_14_f.jpg?impolicy=crop&width=306&height=390",
-            name: "LISA MARIE FERNANDIZ",
-            type: "long dress",
-            strike: "US$ 432,00 38%OFF",
-            price: "500"
+            image:
+                "https://www.yoox.com/images/items/12/12611459fg_14_r.jpg?width=210&height=272&impolicy=crop&gravity=Center",
+            name: "JW Anderson x Pol Anglada appliqué-logo levis shirt ",
+            brand: "LEV'S",
+            price: 1620,
+            strikedoffprice: 3599,
+            category: "SHIRT",
+            Symbol: "₹",
         },
         {
+            image:
+                "https://www.yoox.com/images/items/12/12621828bw_14_r.jpg?width=210&height=272&impolicy=crop&gravity=Center",
+            name: "Calvin Klein herringbone-effect jacket ",
+            brand: "CALVIN KLEIN",
+            price: 1440,
+            strikedoffprice: 3199,
+            category: "JACKET",
+            Symbol: "₹",
+        },
 
-            id: 6,
-            image: "https://www.yoox.com/images/items/15/15192942OB_14_f.jpg?impolicy=crop&width=306&height=390",
-            name: "LISA MARIE FERNANDIZ",
-            type: "long dress",
-            strike: "US$ 432,00 38%OFF",
-            price: "400"
-        }
+
 
 
     ]
@@ -1179,21 +1400,232 @@
     });
 
 
-    // const btn2 = document.getElementById("designersNav");
 
-    // btn2.onclick = function () {
-
-    //     document.querySelector(".dropdownwrapper1").classList.toggle('active')
-    // }
+    let displayData = document.getElementById("displayData");
+    let displayData1 = document.getElementById("displayData1");
+    let displayData2 = document.getElementById("displayData2");
 
 
+    let displayData3 = document.getElementById("displayData3");
+    let displayData4 = document.getElementById("displayData4");
+    let displayData5 = document.getElementById("displayData5");
+    let displayData6 = document.getElementById("displayData6");
+    let displayData7 = document.getElementById("displayData7");
+    let displayData8 = document.getElementById("displayData8");
 
-    const btn1 = document.getElementById("newArrivalNav");
 
-    btn1.onclick = function () {
-       
-        document.querySelector(".dropdownwrapper").classList.toggle('active')
+    const btn = document.getElementById("newArrivalNav");
+    btn.onclick = function () {
+
+        if (displayData.style.display !== "none") {
+            displayData.style.display = "none";
+            // document.querySelector(".dropdownwrapper1").classList.toggle('active')
+
+        }
+        else {
+
+            displayData.style.display = "block"
+            document.querySelector(".dropdownwrapper").classList.toggle('active')
+            displayData1.style.display = "none"
+            displayData2.style.display = "none"
+            displayData3.style.display = "none"
+            displayData4.style.display = "none"
+            displayData5.style.display = "none"
+            displayData6.style.display = "none"
+            displayData7.style.display = "none"
+            displayData8.style.display = "none"
+
+
+
+
+        }
+
     };
+
+    const btn1 = document.getElementById("designerNav");
+    btn1.onclick = function () {
+
+        if (displayData1.style.display !== "none") {
+            displayData1.style.display = "none";
+            // document.querySelector(".dropdownwrapper1").classList.toggle('active')
+
+        }
+        else {
+            displayData1.style.display = "block"
+            document.querySelector(".dropdownwrapper1").classList.toggle('active')
+            displayData.style.display = "none"
+            displayData2.style.display = "none"
+            displayData3.style.display = "none"
+            displayData4.style.display = "none"
+            displayData5.style.display = "none"
+            displayData6.style.display = "none"
+            displayData7.style.display = "none"
+            displayData8.style.display = "none"
+
+        }
+    };
+    const btn2 = document.getElementById("clothingNav");
+    btn2.onclick = function () {
+
+
+        if (displayData2.style.display !== "none") {
+            displayData2.style.display = "none";
+            //  document.querySelector(".dropdownwrapper1").classList.toggle('active')
+
+        }
+        else {
+            displayData2.style.display = "block"
+            document.querySelector(".dropdownwrapper2").classList.toggle('active')
+            displayData.style.display = "none"
+            displayData1.style.display = "none"
+            displayData3.style.display = "none"
+            displayData4.style.display = "none"
+            displayData5.style.display = "none"
+            displayData6.style.display = "none"
+            displayData7.style.display = "none"
+            displayData8.style.display = "none"
+        }
+    };
+    const btn3 = document.getElementById("shoesNav");
+    btn3.onclick = function () {
+        if (displayData3.style.display !== "none") {
+            displayData3.style.display = "none";
+            // document.querySelector(".dropdownwrapper1").classList.toggle('active')
+
+        }
+        else {
+            displayData3.style.display = "block"
+            document.querySelector(".dropdownwrapper3").classList.toggle('active')
+            displayData.style.display = "none"
+            displayData1.style.display = "none"
+            displayData2.style.display = "none"
+            displayData4.style.display = "none"
+            displayData5.style.display = "none"
+            displayData6.style.display = "none"
+            displayData7.style.display = "none"
+            displayData8.style.display = "none"
+        }
+
+    };
+    const btn4 = document.getElementById("accessorisNav");
+    btn4.onclick = function () {
+        if (displayData4.style.display !== "none") {
+            displayData4.style.display = "none";
+            // document.querySelector(".dropdownwrapper1").classList.toggle('active')
+
+        }
+        else {
+            displayData4.style.display = "block"
+            document.querySelector(".dropdownwrapper4").classList.toggle('active')
+            displayData.style.display = "none"
+            displayData1.style.display = "none"
+            displayData2.style.display = "none"
+            displayData3.style.display = "none"
+            displayData5.style.display = "none"
+            displayData6.style.display = "none"
+            displayData7.style.display = "none"
+            displayData8.style.display = "none"
+        }
+
+    };
+
+    const btn5 = document.getElementById("byYooxNav");
+    btn5.onclick = function () {
+        if (displayData5.style.display !== "none") {
+            displayData5.style.display = "none";
+            // document.querySelector(".dropdownwrapper1").classList.toggle('active')
+
+        }
+        else {
+            displayData5.style.display = "block"
+            document.querySelector(".dropdownwrapper5").classList.toggle('active')
+            displayData.style.display = "none"
+            displayData1.style.display = "none"
+            displayData2.style.display = "none"
+            displayData3.style.display = "none"
+            displayData4.style.display = "none"
+            displayData6.style.display = "none"
+            displayData7.style.display = "none"
+            displayData8.style.display = "none"
+        }
+
+    };
+
+
+    const btn6 = document.getElementById("yooxgenNav");
+    btn6.onclick = function () {
+        if (displayData6.style.display !== "none") {
+            displayData6.style.display = "none";
+            // document.querySelector(".dropdownwrapper1").classList.toggle('active')
+
+        }
+        else {
+            displayData6.style.display = "block"
+            document.querySelector(".dropdownwrapper6").classList.toggle('active')
+            displayData.style.display = "none"
+            displayData1.style.display = "none"
+            displayData2.style.display = "none"
+            displayData3.style.display = "none"
+            displayData4.style.display = "none"
+            displayData5.style.display = "none"
+            displayData7.style.display = "none"
+            displayData8.style.display = "none"
+        }
+
+
+
+    };
+    const btn7 = document.getElementById("collaborationNav");
+    btn7.onclick = function () {
+        if (displayData7.style.display !== "none") {
+            displayData7.style.display = "none";
+            // document.querySelector(".dropdownwrapper1").classList.toggle('active')
+
+        }
+        else {
+            displayData7.style.display = "block"
+            document.querySelector(".dropdownwrapper7").classList.toggle('active')
+            displayData.style.display = "none"
+            displayData1.style.display = "none"
+            displayData2.style.display = "none"
+            displayData3.style.display = "none"
+            displayData4.style.display = "none"
+            displayData5.style.display = "none"
+            displayData6.style.display = "none"
+            displayData8.style.display = "none"
+        }
+
+
+
+    };
+
+
+
+    const btn8 = document.getElementById("bestOfferNav");
+    btn8.onclick = function () {
+        if (displayData8.style.display !== "none") {
+            displayData8.style.display = "none";
+            // document.querySelector(".dropdownwrapper1").classList.toggle('active')
+
+        }
+        else {
+            displayData8.style.display = "block"
+            document.querySelector(".dropdownwrapper8").classList.toggle('active')
+            displayData.style.display = "none"
+            displayData1.style.display = "none"
+            displayData2.style.display = "none"
+            displayData3.style.display = "none"
+            displayData4.style.display = "none"
+            displayData5.style.display = "none"
+            displayData6.style.display = "none"
+            displayData7.style.display = "none"
+        }
+
+
+
+    };
+    //  bestOfferNav
+
 
 
 

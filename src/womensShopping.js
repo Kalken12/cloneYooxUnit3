@@ -208,7 +208,7 @@ console.log(mensData)
 
 var cartArr =JSON.parse(localStorage.getItem("cartItem")) || [];
 
-var wishArr =JSON.parse(localStorage.getItem("wishItem")) || [];
+var wishArr =JSON.parse(localStorage.getItem("wishItem")) 
 
 displayData(mensData);
 
@@ -257,7 +257,7 @@ mensData.map(function (data) {
 
   //   created a div for "add to cart button" && "wishlist button" -->
   var btnDiv = document.createElement("div");
-  btnDiv.setAttribute("id" , "btnDiv");
+
 
   var addBtn = document.createElement("button");
   addBtn.textContent = "Add To Cart";
@@ -271,6 +271,8 @@ mensData.map(function (data) {
     wishlist(data)
   })
 
+  btnDiv.style ="display:flex; justify-content:center:gap:20px"
+  addBtn.style= "background-color:black;color:white;border:none"
   btnDiv.append(addBtn,wishBtn);
 
   //appending-->
@@ -356,3 +358,7 @@ function filterCategory(){
 
 
 
+let cartIcon = document.getElementById("cartIcon")
+ cartIcon.addEventListener("click",()=>{
+     window.location.href = "../cart.html"
+ })

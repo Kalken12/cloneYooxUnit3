@@ -8,38 +8,18 @@
     <link rel="stylesheet" href="./styles/home.css">
     <link rel="stylesheet" href="./styles/mensShopping.css">
     <link rel="stylesheet" href="./styles/navigation.css">
+    
 </head>
 <body>
      <!-- importing navbar -->
-     <div id="makeSticky" class="sticky" style=>
+     <div id="makeSticky" class="sticky" >
       <div id="navbar" >
          
      </div>
      <div id="bottomNav"></div>
    </div>
-     
 
-      <!-- navbar to choose the category -->
-      <!-- <div class="category">
-        <ul>
-            <li> <a href="womenShooping.html">WOMEN</a></li>
-            <li> <a href="mensShopping.html">MEN</a> </li>
-            <li> <a href="KidsShopping.html">KIDS</a></li>
-            <li>
-                <a href=""> DESIGN+ART</a>
-            </li>
-        </ul>
- 
-        <ul>
-            <li>YOOX</li>
-        </ul>
- 
-        <ul>
-            <li> <img src="https://www.iconpacks.net/icons/1/free-icon-heart-492.png" alt=""> <a href="./wishlist.html">Wishlist</a>  </li>
-            <li> <img src="https://www.iconpacks.net/icons/2/free-shopping-bag-icon-3753.png" alt=""> <a href="./cart.html">Check Your Cart</a> </li>
-        </ul>
-        
-     </div> -->
+     
 
      <!-- sorting and filter select html  -->
     <div id="sortFilter">
@@ -64,15 +44,8 @@
   
         <!-- filter by category  -->
         <select name="" id="CategoryFilter" onchange="filterCategory()">
-          <option value="">Select Category</option>
-          <option value="JACKET">Jacket</option>
-          <option value="T-SHIRT">T-Shirt</option>
-          <option value="PANT">Pant</option>
-          <option value="SHIRT">Shirt</option>
-          <option value="SHOES">Shoes</option>
-          <option value="BAG">Bag</option>
-          <option value="WATCH">Watch</option>
-          <option value="SUNGLASSES">Sunglasses</option>
+        <option value="GIRLS">GIRLS </option>
+        <option value="BOYS">Boys</option>
         </select>
       </div>
   
@@ -81,28 +54,20 @@
       <button id="cartBtn" onclick="window.location.href='./cart.html'">Check Your Cart Here</button>
       <button id="wishBtn" onclick="window.location.href='./wishlist.html'">Go To Your Wishlist</button>
       
-<div id="footer"></div>
-     
+
+
+    <div id="footer"></div>
+
 </body>
 </html>
-<script src="./src/mensShpping.js"></script>
+<script src="./src/kidsShopping.js"></script>
 <script type="module">
+
 import {navbar, footer} from "../components/navbar.js"
-
-
-
-
 
 document.getElementById("navbar").innerHTML = navbar()
 
-
-  document.getElementById("footer").innerHTML =  footer()
-
-
-
-
-
-    
+ document.getElementById("footer").innerHTML = footer()
 </script>
 
 

@@ -157,7 +157,7 @@
                       
 
                         <div class="modal-footer">
-                            <a id="createaccount" href="">Create Account</a>
+                            <a id="createaccount" href="./registar.html">Create Account</a>
                         </div>
 
                     </div>
@@ -177,5 +177,9 @@
 
 </html>
 <script src="./src/login.js">
-
+let loginBtn = document.getElementById("loginBtn")
+loginBtn.addEventListener("click",()=>
+{
+    window.location.href ="./index.html"
+})
 </script>

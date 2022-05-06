@@ -148,7 +148,7 @@
         <h1>SHIPPING</h1>
         <div id="navAjcentDivFlex">
             <a sty href="./mensShopping .html">BACK TO SHOPPING</a>
-            <button>SHIP TO THIS ADDRESS </button>
+            <button class="goToOrder">SHIP TO THIS ADDRESS </button>
         </div>
 
     </div>
@@ -176,7 +176,7 @@
                 <label for=""> <input class="checkbox" type="checkbox">Save this address in MYOOX</label><br><br>
                 <label for=""><input class="checkbox" type="checkbox">Set as default</label>
                 <!-- <input id="submitBtn" type="submit" onclick="submitData()"> -->
-                <button id="submitBtn" type="button" onclick="submitData()">SHIP TO THIS ADDRESS</button>
+                <button  id="submitBtn" type="button"  >SHIP TO THIS ADDRESS</button>
             </form>
 
 
@@ -231,5 +231,23 @@
     let totalBillForItem = document.getElementById("totalBillForItem")
     totalBillForItem.innerText = `US$${billList[1]},00`
 
+
+
+
+
+
+
+
+// redirection
+    let goToOrder = document.querySelector(".goToOrder")
+    goToOrder.addEventListener("click",()=>
+    {
+        window.location.href ="./payment.html"
+    })
+
+    let submitBtn = document.getElementById("submitBtn")
+    submitBtn.addEventListener("click",()=>{
+        window.location.href ="./payment.html"
+    })
 
 </script>

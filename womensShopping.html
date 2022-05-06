@@ -11,10 +11,12 @@
 </head>
 <body>
      <!-- importing navbar -->
-     <div id="nab" >
+     <div id="makeSticky" class="sticky">
+     <div id="navbar" >
         
     </div>
-
+    <div id="bottomNav"></div>
+  </div>
      
 
       <!-- navbar to choose the category -->
@@ -80,20 +82,19 @@
       <button id="wishBtn" onclick="window.location.href='./wishlist.html'">Go To Your Wishlist</button>
       
 
-      <div id="footB"></div>
+      <div id="footer"></div>
 
-      <div id="downF">
-        <img src="./resources/foot.png" alt="" style="width: 100%; margin-top: 150px;">
-    </div>
+     
 
 </body>
 </html>
 <script src="./src/womensShopping.js"></script>
 <script type="module">
 
-    import navbar2 from "./components/navbar2.js";
-    var nav = document.getElementById("nab")
-    nav.innerHTML= navbar2();
+import {navbar, footer} from "../components/navbar.js"
+document.getElementById("navbar").innerHTML = navbar()
+ document.getElementById("footer").innerHTML = footer()
+
 </script>
 
 

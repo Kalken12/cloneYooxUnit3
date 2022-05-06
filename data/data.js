@@ -296,7 +296,7 @@ var info1 = [
         name: "Killer brown full sleeve T-shirt",
 
         brand: "SAINT LAURENT",
-
+     
         category: "T-SHIRT",
         price: 1620,
         strikedoffprice: 3599,
@@ -508,7 +508,7 @@ var mensData = [
         name: "MEN'S KENZO TRAINING FOUNDATION PANTS  ",
         brand: "KENZO",
         category: "PANT",
-        price: 1031,
+        price: 1131,
         strikedoffprice: 1699,
         Symbol: "₹",
     },
@@ -595,3 +595,209 @@ var mensData = [
 
 
 ];
+
+// kid-----------------------
+
+
+
+
+
+
+let kid = [
+    {
+        image_url:
+            "https://www.yoox.com/images/items/46/46823111pt_14_f.jpg?width=210&height=272&impolicy=crop&gravity=Center",
+        name: "LITTLE BEAR",
+        brand: "GUCCI",
+        category: "GIRLS",
+        price: 330,
+        strikedoffprice: 4799,
+        
+    },
+    {
+        image_url:"https//www.yoox.com/images/items/15/15198569tx_14_r.jpg?width=210&height=272&impolicy=crop&gravity=Center",
+        name: "LITTLE BEAR",
+        brand: "GUCCI",
+        category: "GIRLS",
+        price: 330,
+        strikedoffprice: 4799,
+        
+    },
+    {
+        image_url:"https://www.yoox.com/images/items/15/15196386sg_14_r.jpg?width=210&height=272&impolicy=crop&gravity=Center",
+        name: "LITTLE BEAR",
+        brand: "NIKE",
+        category: "GIRLS",
+        price: 750,
+        strikedoffprice: 4799,
+        
+    },
+    {
+        image_url:
+            "https://www.yoox.com/images/items/15/15195144hl_14_f.jpg?width=210&height=272&impolicy=crop&gravity=Center",
+        name: "LITTLE BEAR",
+        brand: "KENZO",
+        category: "GIRLS",
+        price: 130,
+        strikedoffprice: 4799,
+        
+    },
+    {
+        image_url:
+            "https://www.yoox.com/images/items/15/15195091vn_14_r.jpg?width=210&height=272&impolicy=crop&gravity=Center",
+        name: "LITTLE BEAR",
+        brand: "SAINT LAURENT",
+        category: "GIRLS",
+        price: 420,
+        strikedoffprice: 4799,
+        
+    }, {
+        image_url:
+            "https://www.yoox.com/images/items/15/15203434kd_14_f.jpg?width=210&height=272&impolicy=crop&gravity=Center",
+        name: "LITTLE SANTA",
+        brand: "GUCCI",
+        category: "GIRLS",
+        price: 190,
+        strikedoffprice: 4799,
+        
+    },
+    {
+        image_url:"https://www.yoox.com/images/items/15/15195532je_14_r.jpg?width=210&height=272&impolicy=crop&gravity=Center",
+           
+        name:  "LITTLE ANGLE",
+        brand: "OFF WHITE",
+        category: "GIRLS",
+        price: 120,
+        strikedoffprice: 4799,
+        
+    },
+    {
+        image_url:
+            "https://www.yoox.com/images/items/15/15201499vb_14_r.jpg?width=210&height=272&impolicy=crop&gravity=Center",
+        name: "PRINCESZ DOLL",
+        brand: "MARNI",
+        category: "GIRLS",
+        price: 340,
+        strikedoffprice: 4799,
+        
+    },
+    {
+        image_url:"https://www.yoox.com/images/items/15/15187283qe_14_r.jpg?width=210&height=272&impolicy=crop&gravity=Center",
+           
+        name:  "PRIME DOLL",
+        brand: "CALVIN KLEIN",
+        category: "GIRLS",
+        price: 3950,
+        strikedoffprice: 4799,
+        
+    },
+    {
+        image_url:
+            "https://www.yoox.com/images/items/15/15180389wl_14_f.jpg?width=210&height=272&impolicy=crop&gravity=Center",
+        name: "LITTLE PRINCESS",
+        brand: "CALVIN KLEIN",
+        category: "GIRLS",
+        price: 3050,
+        strikedoffprice: 4799,
+        
+    },
+    {
+        image_url:"https://www.yoox.com/images/items/15/15054430xa_14_f.jpg?width=210&height=272&impolicy=crop&gravity=Center",
+           
+        name: "LITTLE ANGLE",
+        brand: "LEV'S ",
+        category: "GIRLS",
+        price: 3150,
+        strikedoffprice: 4799,
+        
+    },
+
+    //  BOYS
+
+
+
+
+
+
+    {
+        image_url:"https://www.yoox.com/images/items/49/49604322wn_14_r.jpg?width=210&height=272&impolicy=crop&gravity=Center",
+           
+        name: "LITTLE CHAMP",
+        brand: "GUCCI",
+        category: "BOYS",
+        price: 310,
+        strikedoffprice: 4799,
+        
+    },
+    {
+        image_url:"https://www.yoox.com/images/items/46/46675021jx_14_f.jpg?width=210&height=272&impolicy=crop&gravity=Center",
+           
+        name: "LITTLE CHAMP",
+        brand: "SAINT LAURENT",
+        category: "BOYS",
+        price: 1250,
+        strikedoffprice: 4799,
+        
+    },
+    {
+        image_url:"https://www.yoox.com/images/items/12/12659739kn_14_r.jpg?width=210&height=272&impolicy=crop&gravity=Center",
+           
+        name: "LITTLE CHAMP",
+        brand: "CALVIN KLEIN",
+        category: "BOYS",
+        price: 390,
+        strikedoffprice: 4799,
+        
+    },
+    {
+        image_url:"https://www.yoox.com/images/items/49/49754291jv_14_r.jpg?width=210&height=272&impolicy=crop&gravity=Center",
+           
+        name: "LITTLE CHAMP",
+        brand: "OFF WHITE",
+        category: "BOYS",
+        price: 300,
+        strikedoffprice: 4799,
+        
+    },
+    {
+        image_url:"https://www.yoox.com/images/items/12/12750538bi_14_f.jpg?width=210&height=272&impolicy=crop&gravity=Center",
+           
+        name: "LITTLE CHAMP",
+        brand: "SAINT LAURENT",
+        category: "BOYS",
+        price: 3150,
+        strikedoffprice: 4799,
+        
+    },
+    {
+        image_url: "https://www.yoox.com/images/items/13/13749080pl_14_r.jpg?width=210&height=272&impolicy=crop&gravity=Center",
+           
+        name: "LITTLE CHAMP",
+        brand: "CALVIN KLEIN",
+        category: "BOYS",
+        price: 3150,
+        strikedoffprice: 4799,
+        
+    },
+    {
+        image_url:"https://www.yoox.com/images/items/12/12747013ba_14_f.jpg?width=210&height=272&impolicy=crop&gravity=Center",
+           
+        name: "LITTLE CHAMP",
+        brand: "LEV'S ",
+        category: "BOYS",
+        price: 350,
+        strikedoffprice: 4799,
+        
+    },
+    {
+        image_url:"https://www.yoox.com/images/items/49/49743938wv_14_f.jpg?width=210&height=272&impolicy=crop&gravity=Center",
+           
+        name: "LITTLE CHAMP",
+        brand: "SAINT LAURENT",
+        category:"BOYS",
+        price: 380,
+        strikedoffprice: 4799,
+        
+    },
+
+]

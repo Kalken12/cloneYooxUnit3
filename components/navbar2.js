@@ -27,9 +27,9 @@ function navbar2()
 <hr>
 <div id="midNav">
     <div id="midNavleft">
-        <a class="hoveringPages" href="" id="WomenPageBtn">WOMEN</a>
-        <a class="hoveringPages" href="" id="MenPageBtn">MEN</a>
-        <a class="hoveringPages" href="" id="KidpageBtn">KIDS</a>
+        <a class="hoveringPages" href="./index.html" id="WomenPageBtn">WOMEN</a>
+        <a class="hoveringPages" href="./mens.html" id="MenPageBtn">MEN</a>
+        <a class="hoveringPages" href="./kids.html" id="KidpageBtn">KIDS</a>
         <div> /</div>
         <a class="hoveringPages" href="" id="DesignArtBtn"> DESIGN+ART</a>
 
