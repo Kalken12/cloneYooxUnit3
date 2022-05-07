@@ -321,7 +321,7 @@ mensData.map(function (data) {
   var price = document.createElement("p");
   price.textContent = data.price;
 
-  symPrice.append(symbol, price);
+  symPrice.append( price);
 
   var strikPri = document.createElement("p");
   strikPri.textContent = data.strikedoffprice;

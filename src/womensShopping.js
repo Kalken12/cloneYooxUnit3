@@ -241,10 +241,11 @@ mensData.map(function (data) {
 
   //   created a div for "add to cart button" && "wishlist button" -->
   var btnDiv = document.createElement("div");
-
+ 
 
   var addBtn = document.createElement("button");
-  addBtn.textContent = "Add To Cart";
+
+   addBtn.textContent = "Add To Cart";
   addBtn.addEventListener("click" , function(){
     addToCart(data)
   })
@@ -264,8 +265,6 @@ mensData.map(function (data) {
   document.querySelector("#container").append(div);
 });
 }
-
-
 
 
 //function for addtocart button-->

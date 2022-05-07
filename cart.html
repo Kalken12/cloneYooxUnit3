@@ -171,7 +171,8 @@
         <h1>SHOPPING BAG</h1>
         <div id="navAjcentDivFlex">
             <a sty href="./mensShopping .html">BACK TO SHOPPING</a>
-            <button class="goToOrder">Proceed With Your ORDER > </button>
+            <button class="goToOrder"> GO TO WISHLIST </button>
+            <button id="gotoforward"> GO TO SHIPPING</button>
         </div>
 
         <hr>
@@ -213,9 +214,11 @@
                 <h4>FREE</h4>
                 <h2 id="totalBill"></h2>
             </div>
+          
         </div>
-
+       
     </div>
+  
     <div id="footer"></div>
 
 </body>
@@ -420,6 +423,13 @@
     // redirection
     let goToOrder = document.querySelector(".goToOrder")
     goToOrder.addEventListener("click",()=>
+    {
+        window.location.href ="/wishlist.html"
+    })
+
+
+    let gotoforward =document.getElementById("gotoforward")
+    gotoforward.addEventListener("click",()=>
     {
         window.location.href ="/shipping.html"
     })

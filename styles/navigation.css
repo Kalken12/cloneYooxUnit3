@@ -140,6 +140,8 @@ font-size: 20px;
     display: flex;
 
     justify-content: space-around;
+    margin-bottom: 10px;
+  
 }
 
 #midNavleft {
@@ -170,6 +172,12 @@ font-size: 20px;
 
     /* border: 1px solid blue; */
     padding-top: 20px;
+}
+#midNavRight>a{
+    color:black
+}
+#midNavRight>a:hover{
+    color:blue;
 }
 
 .hoveringPages {

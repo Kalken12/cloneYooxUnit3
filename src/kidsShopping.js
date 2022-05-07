@@ -271,6 +271,7 @@ mensData.map(function (data) {
   //   created a div for "add to cart button" && "wishlist button" -->
   var btnDiv = document.createElement("div");
   btnDiv.setAttribute("id" , "btnDiv");
+  btnDiv.style ="display:flex; justify-content:center;gap:20px"
 
   var addBtn = document.createElement("button");
   addBtn.textContent = "Add To Cart";

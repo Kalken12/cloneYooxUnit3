@@ -21,6 +21,7 @@ function checkData(email, pass) {
 
 
     if (signupData === null) {
+        window.location.href ="../registar.html"
         alert("you are new User please Signup first!!")
         document.querySelector("#email").value = ""
         document.querySelector("#pass").value = ""
@@ -35,7 +36,7 @@ function checkData(email, pass) {
                 alert("login successful")
                 document.querySelector("#email").value = ""
                 document.querySelector("#pass").value = ""
-                window.location.href = "../index.html";
+                window.location.href = "../women.html";
                 break;
 
             }

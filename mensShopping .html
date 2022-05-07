@@ -15,7 +15,40 @@
       <div id="navbar" >
          
      </div>
-     <div id="bottomNav"></div>
+     <div id="bottomNav">
+      <select name="" id="priceSort" onchange="handlePriceSort()">
+        <option value="">SORT BY PRICE</option>
+        <option value="high">High-To-Low</option>
+        <option value="low">Low-To-High</option>
+      </select>
+
+      <!-- filter by brand name  -->
+      <select name="" id="brandFilter" onchange="filterBrand()">
+        <option value="">SORT BY BRAND</option>
+        <option value="CALVIN KLEIN">Calvin Klein</option>
+        <option value="LEV'S">Lev's</option>
+        <option value="SAINT LAURENT">Saint Laurent</option>
+        <option value="MARNI">Marni</option>
+        <option value="NIKE">Nike</option>
+        <option value="OFF WHITE">Off-White</option>
+        <option value="KENZO">Kenzo</option>
+        <option value="GUCCI">Gucci</option>
+      </select>
+
+      <!-- filter by category  -->
+      <select name="" id="CategoryFilter" onchange="filterCategory()">
+        <option value="">SORT BY CATAGORY</option>
+        <option value="JACKET">Jacket</option>
+        <option value="T-SHIRT">T-Shirt</option>
+        <option value="PANT">Pant</option>
+        <option value="SHIRT">Shirt</option>
+        <option value="SHOES">Shoes</option>
+        <option value="BAG">Bag</option>
+        <option value="WATCH">Watch</option>
+        <option value="SUNGLASSES">Sunglasses</option>
+      </select>
+
+     </div>
    </div>
      
 
@@ -42,15 +75,15 @@
      </div> -->
 
      <!-- sorting and filter select html  -->
-    <div id="sortFilter">
+    <!-- <div id="sortFilter">
         <select name="" id="priceSort" onchange="handlePriceSort()">
           <option value="">Price Sort</option>
           <option value="high">High-To-Low</option>
           <option value="low">Low-To-High</option>
-        </select>
+        </select> -->
   
         <!-- filter by brand name  -->
-        <select name="" id="brandFilter" onchange="filterBrand()">
+        <!-- <select name="" id="brandFilter" onchange="filterBrand()">
           <option value="">Select Brand</option>
           <option value="CALVIN KLEIN">Calvin Klein</option>
           <option value="LEV'S">Lev's</option>
@@ -60,10 +93,10 @@
           <option value="OFF WHITE">Off-White</option>
           <option value="KENZO">Kenzo</option>
           <option value="GUCCI">Gucci</option>
-        </select>
+        </select> -->
   
         <!-- filter by category  -->
-        <select name="" id="CategoryFilter" onchange="filterCategory()">
+        <!-- <select name="" id="CategoryFilter" onchange="filterCategory()">
           <option value="">Select Category</option>
           <option value="JACKET">Jacket</option>
           <option value="T-SHIRT">T-Shirt</option>
@@ -74,7 +107,7 @@
           <option value="WATCH">Watch</option>
           <option value="SUNGLASSES">Sunglasses</option>
         </select>
-      </div>
+      </div> -->
   
   
       <div id="container"></div>
@@ -86,36 +119,12 @@
 </body>
 </html>
 <script src="./src/mensShpping.js"></script>
+
 <script type="module">
-import {navbar, footer} from "../components/navbar.js"
-
-
-
-
-
+import {navbar, footer} from "./components/navbar.js"
 document.getElementById("navbar").innerHTML = navbar()
-
-
-  document.getElementById("footer").innerHTML =  footer()
-
-
-
-
-
-    
+document.getElementById("footer").innerHTML =  footer()
+  
 </script>
 
 
-
-<!-- <script type="module">
-    import shop from "./components/shopping.js";
-    var buy = document.getElementById("select")
-    buy.innerHTML= shop();
-</script> -->
-
-
-<!-- <script type="module">
-    import footerBar from "./components/footerBar.js";
-    var foot = document.getElementById("footB")
-    foot.innerHTML= footerBar();
-</script> -->

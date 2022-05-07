@@ -15,34 +15,8 @@
      <div id="navbar" >
         
     </div>
-    <div id="bottomNav"></div>
-  </div>
-     
-
-      <!-- navbar to choose the category -->
-      <!-- <div class="category">
-        <ul>
-            <li> <a href="womenShooping.html">WOMEN</a></li>
-            <li> <a href="mensShopping.html">MEN</a> </li>
-            <li> <a href="KidsShopping.html">KIDS</a></li>
-            <li>
-                <a href=""> DESIGN+ART</a>
-            </li>
-        </ul>
- 
-        <ul>
-            <li>YOOX</li>
-        </ul>
- 
-        <ul>
-            <li> <img src="https://www.iconpacks.net/icons/1/free-icon-heart-492.png" alt=""> <a href="./wishlist.html">Wishlist</a>  </li>
-            <li> <img src="https://www.iconpacks.net/icons/2/free-shopping-bag-icon-3753.png" alt=""> <a href="./cart.html">Check Your Cart</a> </li>
-        </ul>
-        
-     </div> -->
-
-     <!-- sorting and filter select html  -->
-    <div id="sortFilter">
+    <div id="bottomNav">
+    
         <select name="" id="priceSort" onchange="handlePriceSort()">
           <option value="">Price Sort</option>
           <option value="high">High-To-Low</option>
@@ -76,6 +50,11 @@
         </select>
       </div>
   
+  </div>
+     
+
+      
+
   
       <div id="container"></div>
       <button id="cartBtn" onclick="window.location.href='./cart.html'">Check Your Cart Here</button>
@@ -95,6 +74,14 @@ import {navbar, footer} from "../components/navbar.js"
 document.getElementById("navbar").innerHTML = navbar()
  document.getElementById("footer").innerHTML = footer()
 
+</script>
+<script>
+  let cartIcon = document.getElementById("cartIcon")
+
+ cartIcon.addEventListener("click",()=>{
+     window.location.href = "../cart.html"
+ })
+    
 </script>
 
 
