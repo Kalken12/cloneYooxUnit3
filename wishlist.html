@@ -96,7 +96,7 @@ import { navbar, footer } from "./components/navbar.js"
 </script>
 <script>
 
-let wishlistArr = JSON.parse(localStorage.getItem("wishItem"));
+let wishlistArr = JSON.parse(localStorage.getItem("wishItem"))||[]
 console.log('wishlistArr:', wishlistArr)
 
 
@@ -168,9 +168,11 @@ mensData.map(function (data) {
 
 
 function wishlist(data) {
-    console.log(data);
-    wishArr.push(data);
-    localStorage.setItem("wishItem", JSON.stringify(wishArr));
+    let cartArr = JSON.parse(localStorage.getItem("cartItem"))||[]
+    console.log( "cartArr" ,cartArr);
+    cartArr.push(data);
+    console.log( "cartArr" ,cartArr);
+    localStorage.setItem("cartItem", JSON.stringify(cartArr));
   }
 
 

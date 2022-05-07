@@ -44,6 +44,13 @@
 
 
         }
+        #achor{
+            margin-left: 80px;
+         font-size: 10px;
+         color: rgb(109, 32, 45);
+     
+          
+        }
     </style>
 
 </head>
@@ -56,8 +63,8 @@
 
                 <input id="inputBox" type="password" placeholder="Enter OTP...">
                 <hr>
-                <input type="submit" id="otpBtn" value="Submit">
-
+                <input type="submit" id="otpBtn" value="Submit"><br>
+                <a id="achor" href="./shipping.html">CHECK NUMBER</a>
             </div>
 
         </div>
@@ -71,12 +78,12 @@
 
 
     function otpfunct(event) {
-
+        event.preventDefault()
         if (document.querySelector("#inputBox").value === "1234") {
-          window.location.href ="/index.html"
+            window.location.href = "/thank.html"
             alert("Payment Successful")
             alert("Order placed Successfully")
-
+        
            
 
         }
